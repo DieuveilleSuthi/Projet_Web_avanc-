@@ -1,0 +1,133 @@
+.containerPrincipal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.tableauEtudiants{
+    width: 200%;
+}
+.rajoutEtudiant{
+    width: 37%;
+    border-left: solid black 1px;
+}
+
+.rajoutEtudiant form > div{
+    text-align: left;
+    margin-left: 30%;
+}
+.rajoutEtudiant form > div > label{
+    margin-right: 20px;
+}
+
+.rajoutEtudiant form > div > input ,.rajoutEtudiant form > div >select{
+    border: none;
+    border-left: 2.5px solid blue;
+    border-bottom: 1px solid blue;
+}
+.rajoutEtudiant form > div >button{
+    border: none;
+    border-bottom: 2.5px solid blue;
+    background: none;
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+.rajoutEtudiant form > div >button:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/** CSS Execice 1 partie To Do List */
+#tableauListe{
+    border-top: solid rgba(5, 6, 39, 0.705) 2px ;
+    padding-top: 25px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0;
+}
+#tableauListe > table{
+    width: 100%;
+}
+#tableauListe thead > tr > th{
+    border-bottom: solid rgba(78, 6, 6, 0.719) 2px;
+}
+#colTitre{
+    width: 30%;
+}
+#colDesc{
+    width: 60%;
+}
+#colEtat{
+    width: 10%;
+}
+
+#titreListe{
+    text-align: left;
+    text-decoration: none;
+    color: rgba(5, 6, 39, 0.705);
+
+}
+
+#btnSwitchDone{
+    text-decoration: none;
+    background: none;
+    border: none;
+}
+tr:hover{
+    background-color:darkgrey;
+}
+
+/** CSS exercice 1 partie Ajout tache*/
+#Bloc1{
+    text-align: center;
+    font-size: 100%;
+    border: 3px solid white;
+    margin: 5% 30% 5% 30%;
+    
+}
+#Bloc1 #titreElement{
+    width: 95%;
+    font-size: 18px;
+    text-align: left;
+    border-bottom: solid rgba(5, 6, 39, 0.705) 2px;
+}
+#Bloc1 #titre{
+    font-size: 13px;
+    text-align: left;
+    color: rgba(5, 6, 39, 0.705);
+}
+#Bloc1 #ititre{
+    border: none;
+    border-bottom: solid rgba(5, 6, 39, 0.705) 0.5px;
+    border-left: solid rgba(5, 6, 39, 0.705) 3px;
+}
+#Bloc1 #description{
+    font-size: 13px;
+    text-align: left;
+    color: rgba(5, 6, 39, 0.705);
+}
+#Bloc1 #idescription{
+    border: none;
+    border-bottom: solid rgba(5, 6, 39, 0.705) 0.5px;
+    border-left: solid rgba(5, 6, 39, 0.705) 3px;
+    size: 50;
+    
+}
+#Bloc1 #done{
+    font-size: 13px;
+    color: rgba(5, 6, 39, 0.705);
+    text-align: right;
+    
+}
+button{
+    border: none;
+    background-color: white;
+    border-bottom: solid rgba(5, 6, 39, 0.705) 2px;
+    padding:5px;
+}
+button:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
